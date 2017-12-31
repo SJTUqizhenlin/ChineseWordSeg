@@ -11,6 +11,7 @@ msr.txt as sample
 import pickle
 
 
+print("Finding all character and setup dictionary...")
 set1 = set()
 list1 = []
 infile = open("msr.txt", mode="r")
@@ -31,3 +32,4 @@ infile.close()
 outfile = open("SglDict.pkl", mode="wb")
 pickle.dump(list1, outfile)
 outfile.close()
+print("Finished.")

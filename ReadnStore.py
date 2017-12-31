@@ -15,6 +15,7 @@ Outfile is AllChr.pkl
 import pickle
 
 
+print("Reading... Please wait")
 list1 = []
 infile = open("msr.txt", mode="r")
 
@@ -58,3 +59,4 @@ infile.close()
 outfile = open("AllChr.pkl", mode="wb")
 pickle.dump(list1, outfile)
 outfile.close()
+print("ReadnStore is finished.")
