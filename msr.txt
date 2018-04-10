@@ -1,0 +1,5 @@
+This should be a material for this program to learn from.
+
+You can search for "Chinese word segmentation" and get it, 
+
+the MSR(microsoft research)'s Chinese segmentation material.
